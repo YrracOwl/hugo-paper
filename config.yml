@@ -112,11 +112,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: 分类
+      name: categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: 标签
+      name: tags
       url: /tags/
       weight: 20
     - identifier: wiki
