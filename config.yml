@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: ""
 title: VoidInsight
 paginate: 5
 theme: PaperMod
