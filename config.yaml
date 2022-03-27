@@ -13,11 +13,6 @@ languages:
         languageName: 中文
         title: 演示站点
         weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -164,7 +159,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:YrracOwl
+            site: YrracOwl
 
             # Available values: summary, summary_large_image
             card: summary_large_image
