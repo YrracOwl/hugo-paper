@@ -1,5 +1,5 @@
 ---
-title: "Setup Ur Own Server"
+title: "设置你自己的服务器"
 date: 2022-03-28T14:09:06+08:00
 draft: false
 categories:
@@ -12,24 +12,24 @@ tags:
     - hugo
 ---
 ## 更新apt
-更新apt源列表
+1. 更新apt源列表
 
-    apt update
-    apt upgrade
+        apt update
+        apt upgrade
 
-等待更新完成
+等待更新完成即可
 
 ## 安装ufw以启用http以及https
-安装ufw
+1. 安装ufw
 
-    apt install ufw
+        apt install ufw
 
-查看当前开放端口
+2. 查看当前开放端口
 
-    ufw status verbose
+        ufw status verbose
 
-开放http以及https
+3. 开放http以及https
 
-    ufw allow http
-    ufw allow https
+        ufw allow http
+        ufw allow https
 
