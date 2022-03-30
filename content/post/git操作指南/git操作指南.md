@@ -2,6 +2,8 @@
 title: "Git操作指南"
 date: 2022-03-29T20:12:00+08:00
 draft: false
+slug: git操作指南
+image: alexander-sinn-KgLtFCgfC28-unsplash.jpg
 categories:
     - 操作指南
 tags:
