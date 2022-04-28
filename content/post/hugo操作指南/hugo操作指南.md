@@ -10,19 +10,19 @@ tags:
     - hugo
     - 静态网站
 ---
-## 官方网站
+# 官方网站
 官方资源如下：
 * [Hugo 官网](https://gohugo.io/)
 * [Hugo 文档](https://gohugo.io/documentation/)
 * [Hugo CLI](https://gohugo.io/commands/)
 
-## 常用操作
-### 查看hugo版本以及升级hugo
+# 常用操作
+## 查看hugo版本以及升级hugo
 
     hugo version
 即可查看hugo版本，更新hugo时，再安装一次即可。
 安装方法遵循hugo[官方安装指南](https://gohugo.io/getting-started/installing/)
-### 创建新的日志
+## 创建新的日志
 需要在根目录，带上post/，如下所示。
     
     hugo new post/test.md
@@ -31,12 +31,12 @@ tags:
 
     hugo new -h
 
-### 创建Bundle日志，即含有插入的图片的日志
+## 创建Bundle日志，即含有插入的图片的日志
 在post/后带上文件名即可，如下所示。
 
     hugo new post/testBundle/testBundle.md
 
-## 日志常见格式
+# 日志常见格式
 在我们生成日志后，选用自己中意的编辑器进行日志的编辑。常见的日志格式如下所示。
 
 ```js

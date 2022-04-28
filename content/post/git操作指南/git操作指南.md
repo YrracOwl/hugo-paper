@@ -10,7 +10,7 @@ tags:
     - git
     - 版本管理
 ---
-## Step.01 安装或者升级git
+# 安装或者升级git
 git查看当前版本
 
     git --version
@@ -24,7 +24,7 @@ git查看当前版本
     gsudo choco install git
 
 ---
-## Step.02 git全局设置
+# git全局设置
 安装好git后，设置全局配置
 
     git config –global user.name "username"
@@ -33,7 +33,7 @@ git查看当前版本
 注意，-global代表当前用户，-system代表当前系统，-local代表当前仓库
 
 ---
-## Step.03 git的SSH设置
+# git的SSH设置
 参考[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 查看git当前配置
@@ -41,7 +41,7 @@ git查看当前版本
     git config --system --list
 
 ---
-## Step.04 链接到远程仓库
+# 链接到远程仓库
 在想要初始化的文件夹内，按顺序运行如下命令
 
 - 或者
@@ -68,12 +68,12 @@ git查看当前版本
         git remote set-url origin git://new.url.here
 
 ---
-## Step.05 克隆Clone远程仓库
+# 克隆Clone远程仓库
 克隆自己在github上新建的仓库
 
     git clone git@ssh.fastgit.org:Example/example.git
 
-## Step.06 修改后add/commit/push
+# 修改后add/commit/push
 修改文件后提交代码
 
     git add -A && git commit -m "message"
