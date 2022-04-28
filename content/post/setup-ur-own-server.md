@@ -11,7 +11,7 @@ tags:
     - caddy
     - hugo
 ---
-# 更新apt
+## 更新apt
 1. 更新apt源列表
 
         apt update
@@ -19,7 +19,7 @@ tags:
 
 等待更新完成即可
 
-# 安装ufw以启用http以及https
+## 安装ufw以启用http以及https
 1. 安装ufw
 
         apt install ufw
