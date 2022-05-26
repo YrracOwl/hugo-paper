@@ -32,9 +32,9 @@ tags:
     hugo new -h
 
 ### 创建Bundle日志，即含有插入的图片的日志
-在post/后带上文件名即可，如下所示。
+在post/后带上文件夹名即可，图片与index.md处于同层，如下所示。
 
-    hugo new post/testBundle/testBundle.md
+    hugo new post/testBundle/index.md
 
 ## 日志常见格式
 在我们生成日志后，选用自己中意的编辑器进行日志的编辑。常见的日志格式如下所示。
@@ -45,7 +45,7 @@ title: "Git操作指南"
 date: 2022-03-29T20:12:00+08:00
 draft: false
 slug: git操作指南
-image: /post/git操作指南/alexander-sinn-KgLtFCgfC28-unsplash.jpg
+image: alexander-sinn-KgLtFCgfC28-unsplash.jpg
 categories:
     - 操作指南
 tags:
