@@ -33,7 +33,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: favicon.png
+    favicon: /favicon.png
 
     footer:
         since: 2022
@@ -74,7 +74,6 @@ params:
             repo: YrracOwl/hugo-paper
             issueTerm: pathname
             label: Comment
-            theme: github-light
 
         remark42:
             host:
