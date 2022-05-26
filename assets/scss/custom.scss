@@ -116,16 +116,25 @@ a {
         }
     }
 }
-// 返回顶部CSS
-$hover: 0.2s ease-in-out;
-#back-to-top {
-    bottom: -30px;
-    right: 2px;
-    display: none;
-    position: absolute;  
-    border: 0;
-    transition: transform $hover;
-    &:hover {
-      transform: translateY(-10px);
-    }
+
+// 细滚动条
+html{
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
 }
