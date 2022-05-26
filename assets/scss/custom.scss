@@ -1,57 +1,57 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
-.container {
-    margin-left: auto;
-    margin-right: auto;
+// .container {
+//     margin-left: auto;
+//     margin-right: auto;
 
-    .left-sidebar {
-        max-width: var(--left-sidebar-max-width);
-    }
+//     .left-sidebar {
+//         max-width: var(--left-sidebar-max-width);
+//     }
 
-    .right-sidebar {
-        max-width: var(--right-sidebar-max-width);
+//     .right-sidebar {
+//         max-width: var(--right-sidebar-max-width);
 
-        /// Display right sidebar when min-width: lg
-        @include respond(lg) {
-            display: flex;
-        }
-    }
+//         /// Display right sidebar when min-width: lg
+//         @include respond(lg) {
+//             display: flex;
+//         }
+//     }
 
-    &.extended {
-        @include respond(md) {
-            max-width: 1024px;
-            --left-sidebar-max-width: 25%;
-            --right-sidebar-max-width: 30%;
-        }
+//     &.extended {
+//         @include respond(md) {
+//             max-width: 1024px;
+//             --left-sidebar-max-width: 25%;
+//             --right-sidebar-max-width: 30%;
+//         }
 
-        @include respond(lg) {
-            max-width: 1280px;
-            --left-sidebar-max-width: 20%;
-            --right-sidebar-max-width: 30%;
-        }
+//         @include respond(lg) {
+//             max-width: 1280px;
+//             --left-sidebar-max-width: 20%;
+//             --right-sidebar-max-width: 30%;
+//         }
 
-        @include respond(xl) {
-            max-width: 1536px;
-            --left-sidebar-max-width: 20%;
-            --right-sidebar-max-width: 25%;
-        }
-    }
+//         @include respond(xl) {
+//             max-width: 1536px;
+//             --left-sidebar-max-width: 20%;
+//             --right-sidebar-max-width: 25%;
+//         }
+//     }
 
-    &.compact {
-        @include respond(md) {
-            --left-sidebar-max-width: 25%;
-            max-width: 768px;
-        }
+//     &.compact {
+//         @include respond(md) {
+//             --left-sidebar-max-width: 25%;
+//             max-width: 768px;
+//         }
 
-        @include respond(lg) {
-            max-width: 1024px;
-            --left-sidebar-max-width: 20%;
-        }
+//         @include respond(lg) {
+//             max-width: 1024px;
+//             --left-sidebar-max-width: 20%;
+//         }
 
-        @include respond(xl) {
-            max-width: 1280px;
-        }
-    }
-}
+//         @include respond(xl) {
+//             max-width: 1280px;
+//         }
+//     }
+// }
 
 // 设置选中字体的区域背景颜色
 ::selection {
