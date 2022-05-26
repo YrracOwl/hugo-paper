@@ -18,6 +18,9 @@
         {{- $DesignedBy := `<a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>` -}}
 
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
-        {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
+        {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }} <br/>
+        <span id="busuanzi_container_site_{{ pv }}">  
+            本文总阅读量<span id="busuanzi_value_site_{{ pv }}"></span>次
+        </span>
     </section>
 </footer>
