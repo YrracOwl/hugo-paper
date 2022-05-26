@@ -30,7 +30,7 @@
         }
 
         @include respond(xl) {
-            max-width: 1500px;
+            max-width: 1536px;
             --left-sidebar-max-width: 20%;
             --right-sidebar-max-width: 25%;
         }
@@ -69,6 +69,7 @@
     color: #34495e;
   }
 
+//代码区块颜色改变
 :root {
     // Vue plan 1
     // --code-background-color: #f3f4f4;
@@ -94,6 +95,7 @@ kbd {
     font-family: monospace;
   }
 
+// 链接样式
 a {
     text-decoration: none;
     color: var(--accent-color);
@@ -112,5 +114,18 @@ a {
         &:hover{
             text-decoration: underline;
         }
+    }
+}
+// 返回顶部CSS
+$hover: 0.2s ease-in-out;
+#back-to-top {
+    bottom: -30px;
+    right: 2px;
+    display: none;
+    position: absolute;  
+    border: 0;
+    transition: transform $hover;
+    &:hover {
+      transform: translateY(-10px);
     }
 }
