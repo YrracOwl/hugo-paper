@@ -1,4 +1,4 @@
-baseurl: 
+baseurl: https://hugo.carrywho.com
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -33,7 +33,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: img/logo.svg
+    favicon: 
 
     footer:
         since: 2022
