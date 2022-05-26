@@ -74,6 +74,7 @@ params:
             repo: YrracOwl/hugo-paper
             issueTerm: pathname
             label: Comment
+            theme: github-light
 
         remark42:
             host:
