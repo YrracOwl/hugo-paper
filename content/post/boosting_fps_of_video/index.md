@@ -2,7 +2,7 @@
 title: "在本地用高帧率观看网页视频"
 date: 2022-05-23T14:36:31+08:00
 draft: false
-slug: 在本地观看网页视频
+slug: boosting_fps_of_video
 image: rual-idyll-1339468 (小尺寸).jpg
 toc: true
 categories:
