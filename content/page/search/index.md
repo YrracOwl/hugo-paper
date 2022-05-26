@@ -10,4 +10,7 @@ menu:
         weight: -60
         params: 
             icon: search
+
+readingTime: false
+comments: false
 ---
