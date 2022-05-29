@@ -4,7 +4,8 @@ date: 2022-05-29T17:49:07+08:00
 draft: false
 slug: game_guide_jx3_panzhazhai
 image: 鸡腿子-头图.jpg
-authors: "江清漪"
+authors: 
+    - 江清漪
 categories:
     - 剑网3
 tags:
