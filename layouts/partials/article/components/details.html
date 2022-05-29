@@ -23,7 +23,7 @@
         {{ end }}
     </div>
 
-    {{ if or (not .Date.IsZero) (.Site.Params.article.readingTime) }}
+    {{ if or (not .Date.IsZero) (.Site.Params.article.readingTime) (.Site.Params.article.authors)}}
     <footer class="article-time">
         {{ if not .Date.IsZero }}
             <div>
@@ -43,11 +43,12 @@
             </div>
         {{ end }}
 
-        {{ if not .Date.IsZero }} 
+        {{ if .Site.Params.article.authors }} 
             <div>
                 {{ partial "helper/icon" "user" }}
                 <time class="article-time--reading">                    
                     {{ $.Param "authors" }}
+                    {{ T "article.authors" }}
                 </time>
             </div>
         {{ end }}
