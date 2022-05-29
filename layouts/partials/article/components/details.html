@@ -43,6 +43,15 @@
             </div>
         {{ end }}
 
+        {{ if not .Date.IsZero }} 
+            <div>
+                {{ partial "helper/icon" "user" }}
+                <time class="article-time--reading">                    
+                    {{ $.Param "authors" }}
+                </time>
+            </div>
+        {{ end }}
+
     </footer>
     {{ end }}
 
