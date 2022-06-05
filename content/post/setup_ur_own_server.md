@@ -2,6 +2,7 @@
 title: "设置你自己的服务器"
 date: 2022-03-28T14:09:06+08:00
 draft: false
+authors: YrracOwl
 categories:
     - 服务器
 tags:

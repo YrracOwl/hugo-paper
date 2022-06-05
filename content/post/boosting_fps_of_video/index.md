@@ -5,6 +5,7 @@ draft: false
 slug: boosting_fps_of_video
 image: rual-idyll-1339468 (小尺寸).jpg
 toc: true
+authors: YrracOwl
 categories:
     - 提升体验
 tags:

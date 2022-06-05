@@ -3,6 +3,7 @@ title: "Hugo操作指南"
 date: 2022-03-29T19:09:07+08:00
 draft: false
 slug: hugo_guide
+authors: YrracOwl
 image: rual-idyll-1339468 (小尺寸).jpg
 categories:
     - 操作指南
@@ -45,6 +46,7 @@ title: "Git操作指南"
 date: 2022-03-29T20:12:00+08:00
 draft: false
 slug: git操作指南
+authors: YrracOwl
 image: alexander-sinn-KgLtFCgfC28-unsplash.jpg
 categories:
     - 操作指南
