@@ -32,11 +32,13 @@ collections:
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
-    meta: { path: { widget: string, label: 'Path', index_file: 'index', hint: 'markdown文件路径, 对于page bundle, 如 "一级目录/二级目录/page-bundle目录/index.md", 只需要填写 "一级目录/二级目录/page-bundle目录",不
-要忘记填写page-bundle目录' } }
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+    meta: { path: { widget: string, label: 'Path', index_file: 'index', hint: 'markdown文件路径, 对于page bundle, 如 "一级目录/二级目录/page-bundle目录/index.md", 只需要填写 "一级目录/二级目录/page-bundle目录",不要忘记填写page-bundle目录' } }
+    # Allow users to create new documents in this collection
+    create: true 
+    # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # The fields for each document, usually in front matter
+    fields:
       - {label: "Title", name: "title", widget: "string", hint: "文章标题"}
       - {label: "Slug", name: "slug", widget: "string", required: false, hint: "Slug可以是目录,如 linux/archlinux, 此项会作为路径的功能可能会被 path meta 覆盖"}
       - {label: "Categories", name: "categories", widget: "list",  required: false, hint: "Categories是文章的分类"}
@@ -46,3 +48,24 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image", required: false, hint: "封面图片"}
       - {label: "Tags", name: "tags", widget: "list", required: false, "文章标签，用半角逗号分隔"}
       - {label: "Body", name: "body", widget: "markdown", hint: "博客正文"}
+
+  - name: "categories"
+    label: "categories"
+    folder: "content/categories"
+    path: "{{slug}}/_index"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string", required: false, hint: "分类名字"}
+      - {label: "描述", name: "description", widget: "string", required: false}
+      - {label: "slug", name: "slug", widget: "string", required: false}
+      - {label: "封面", name: "image", widget: "image", required: false, hint: "封面图片"}
+      - label: "style"
+        name: "style"
+        widget: "list"
+        required: false
+        hint: '可用 background: "#2a9d8f" \n color: "#fff"'
+        fields: 
+          - { label: "background", name: "background", widget: "string", default: "#2a9d8f"}
+          - { label: "color", name: "color", widget: "string", default: "#fff" }
+      - {label: "内容", name: "body", widget: "markdown", required: false}
