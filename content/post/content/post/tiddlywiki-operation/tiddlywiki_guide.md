@@ -14,4 +14,4 @@ tags:
 ---
 目前使用的是如下模板，使用Github同步
 
-[TidGi|https://github.com/tiddly-gittly/TidGi-Desktop]
+[TidGi](https://github.com/tiddly-gittly/TidGi-Desktop)
