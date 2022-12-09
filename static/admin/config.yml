@@ -56,9 +56,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "标题", name: "title", widget: "string", required: false, hint: "分类名字"}
+      - {label: "文件夹", name: "title", widget: "string", required: false, hint: "content中文件夹名字"}
       - {label: "描述", name: "description", widget: "string", required: false}
-      - {label: "slug", name: "slug", widget: "string", required: false}
+      - {label: "分类名", name: "slug", widget: "string", required: false, hint: "分类的名字"}
       - {label: "封面", name: "image", widget: "image", required: false, hint: "封面图片"}
       - label: "style"
         name: "style"
