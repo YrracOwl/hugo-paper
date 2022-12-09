@@ -42,7 +42,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "list",  required: false, hint: "Categories是文章的分类"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true, hint: "草稿不会 build"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Authors", name:"authors", widget: "string", default: "YrracOwl", hint: "文章的作者"}
+      - {label: "Authors", name: "authors", widget: "string", default: "YrracOwl", hint: "文章的作者"}
       - {label: "Featured Image", name: "image", widget: "image", required: false, hint: "封面图片"}
       - {label: "Tags", name: "tags", widget: "list", required: false, "文章标签，用半角逗号分隔"}
       - {label: "Body", name: "body", widget: "markdown", hint: "博客正文"}
