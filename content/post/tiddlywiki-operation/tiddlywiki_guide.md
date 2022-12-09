@@ -1,6 +1,6 @@
 ---
 title: Tiddlywiki操作指南
-slug: Tiddlywiki-operation
+slug: tiddlywiki-operation
 categories:
   - 操作指南
 draft: false
