@@ -1,5 +1,6 @@
 ---
 title: Tiddlywiki操作指南
+slug: Tiddlywiki-operation
 categories:
   - 操作指南
 draft: false
@@ -13,4 +14,4 @@ tags:
 ---
 目前使用的是如下模板，使用Github同步
 
-<https://github.com/tiddly-gittly/TidGi-Desktop>
+[TidGi|https://github.com/tiddly-gittly/TidGi-Desktop]
