@@ -32,7 +32,7 @@ tags:
 
 如下举个例子：
 
-```
+```matlab
 h = rcosdesign(0.25,6,4);
 fvtool(h,'Analysis','impulse') % 此行是显示滤波器h的脉冲响应
 ```
@@ -56,7 +56,7 @@ fvtool(h,'Analysis','impulse') % 此行是显示滤波器h的脉冲响应
 
 给出示例如下所示。
 
-```
+```matlab
 h = rcosdesign(0.25, 4, 40);
 data = 2*randi([0 1], 30, 1) - 1;
 figure;
@@ -85,5 +85,13 @@ ylim([-0.4 0.4]);grid on;
 data的值为左图，滤波之后的图为右图，可以观察到**矩形方波被带限了**。
 
 # 未完待续
+
+<!--EndFragment-->
+
+<!--StartFragment-->
+
+# Reference
+
+[参考1](https://blog.csdn.net/lanluyug/article/details/80401943) [参考2](https://blog.csdn.net/weixin_44884357/article/details/89488374)
 
 <!--EndFragment-->
